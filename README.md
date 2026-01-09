@@ -9,7 +9,7 @@ This project builds a **machine learning model** to predict customer churn using
 - Understand the factors that influence churn
 - Provide actionable business recommendations
 
----
+
 
 ## Dataset Description
 
@@ -21,7 +21,7 @@ The dataset contains customer-level information, including:
 - Billing information (MonthlyCharges, TotalCharges)
 - Target variable: **Churn** (1 = churned, 0 = stayed)
 
----
+
 
 ## Data Preprocessing
 
@@ -35,7 +35,7 @@ The following preprocessing steps were applied:
 - Removed non-informative identifiers
 - Ensured the target variable (Churn) was binary
 
----
+
 
 ## Feature Engineering
 
@@ -47,7 +47,7 @@ Additional features were created to improve model performance:
 
 These features help the model better understand customer behaviour patterns.
 
----
+
 
 ## Model Building
 
@@ -60,7 +60,7 @@ Logistic Regression was used as a baseline model because:
 
 The dataset was split into training and testing sets using stratification to preserve class balance.
 
----
+
 
 ## Model Evaluation
 
@@ -77,7 +77,7 @@ The model was evaluated using multiple metrics:
 - Strong performance in identifying non-churners
 - Moderate performance in identifying churners
 
----
+
 
 ## Postdictive Analysis
 
@@ -93,7 +93,7 @@ Postdictive analysis compares predicted churn with actual churn outcomes.
 - Churn class imbalance affected recall
 - Logistic Regression may not capture complex customer behaviour patterns
 
----
+
 
 ## Why Use Multiple Models?
 
@@ -105,7 +105,7 @@ Both **Logistic Regression** and **Random Forest** were explored because:
 
 Random Forest typically performs better but is harder to interpret, while Logistic Regression is easier to explain to stakeholders.
 
----
+
 
 ## Business Recommendations
 
@@ -124,7 +124,7 @@ Focus retention efforts on:
 - Customers using few services
 - Customers with rising monthly charges
 
----
+
 
 ## Conclusion
 
@@ -133,7 +133,7 @@ This project demonstrates how machine learning can be applied to predict custome
 - Adding customer satisfaction data
 - Using advanced models with explainability tools
 
----
+
 
 ## Tools and Libraries Used
 
@@ -144,7 +144,7 @@ This project demonstrates how machine learning can be applied to predict custome
 - Matplotlib / Seaborn
 - Jupyter Notebook
 
----
+
 
 ## Author
 
